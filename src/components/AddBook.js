@@ -14,6 +14,7 @@ class AddBook extends Component {
     };
   }
   clearForm() {
+    //ClearForm
     this.setState({ name: "", genre: "", authorId: "" });
   }
   displayAuthors() {
